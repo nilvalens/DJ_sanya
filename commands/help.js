@@ -57,21 +57,6 @@ module.exports = {
           { name: '🔊 Volume', value: 'Adjust the music volume [ hearing at high volumes is risky ]' },
         ) 
        .setImage('https://cdn.discordapp.com/attachments/367353824819544065/1200069099691196536/standard.png?ex=65c4d671&is=65b26171&hm=da8544dab294d6ec523aaadb5d21ad7ae4b990fe091c4800f113a1bcbc90130c&')
-      const button1 = new ButtonBuilder()
-        .setLabel('YouTube')
-        .setURL('https://www.youtube.com/channel/UCPbAvYWBgnYhliJa1BIrv0A')
-        .setStyle(ButtonStyle.Link);
-
-      const button2 = new ButtonBuilder()
-        .setLabel('Discord')
-        .setURL('https://discord.gg/FUEHs7RCqz')
-        .setStyle(ButtonStyle.Link);
-
-      const button3 = new ButtonBuilder()
-        .setLabel('Code')
-        .setURL('https://replit.com/@BEASTGAMERS1?tab=community')
-        .setStyle(ButtonStyle.Link);
-
       const row = new ActionRowBuilder()
         .addComponents(button1, button2, button3);
 
