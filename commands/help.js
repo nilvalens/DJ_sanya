@@ -57,8 +57,6 @@ module.exports = {
           { name: '🔊 Volume', value: 'Adjust the music volume [ hearing at high volumes is risky ]' },
         ) 
        .setImage('https://cdn.discordapp.com/attachments/367353824819544065/1200069099691196536/standard.png?ex=65c4d671&is=65b26171&hm=da8544dab294d6ec523aaadb5d21ad7ae4b990fe091c4800f113a1bcbc90130c&')
-      const row = new ActionRowBuilder()
-        .addComponents(button1, button2, button3);
 
       interaction.reply({
         embeds: [musicCommandsEmbed, basicCommandsEmbed],
